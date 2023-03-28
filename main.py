@@ -28,7 +28,10 @@ while play:
         Monster("슬라임",35,5,1),
         Monster("버섯돌이",40,6,1),
         Monster("토깽이",31,4,1),
-        Monster("독사",34,5,1)
+        Monster("독사",34,5,1),
+        Monster("공민영",50,5,2),
+        Monster("여우",33,6,1),
+        Monster("",34,5,1)
     ]
     try:
         print('어떤 행동을 취할까?')
@@ -87,7 +90,7 @@ while play:
         if spawn==True and user_turn == True:
             print("몬스터의 턴!")
             print("------------------------")
-            time.sleep(0.4)
+            time.sleep(0.8)
             if monster.boss==False:
                 monster.normal_attack(novice)
                 time.sleep(0.4)
