@@ -32,6 +32,8 @@ class User(Base):
         time.sleep(0.2)
         print(f'당신의 체력이 전부 회복되었습니다')
         time.sleep(0.4)
+        if self.experience>self.max_experience:
+            self.level_up()
 
     def save_user_info(self):
         with open(f"{self.name}.txt", "w") as f:
