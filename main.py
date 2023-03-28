@@ -30,8 +30,7 @@ while play:
         Monster("토깽이",31,4,1),
         Monster("독사",34,5,1),
         Monster("공민영",50,5,2),
-        Monster("여우",33,6,1),
-        Monster("",34,5,1)
+        Monster("여우",33,6,1)
     ]
     try:
         print('어떤 행동을 취할까?')
