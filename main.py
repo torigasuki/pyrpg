@@ -83,7 +83,7 @@ while play:
             novice.experience += monster.experience
             if novice.experience >= novice.max_experience:
                 novice.level_up()
-            spawn = False
+            user_turn=False
         else: pass
 
         if spawn==True and user_turn == True:
