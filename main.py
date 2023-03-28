@@ -87,7 +87,7 @@ while play:
         if spawn==True and user_turn == True:
             print("몬스터의 턴!")
             print("------------------------")
-            time.sleep(0.4)
+            time.sleep(0.8)
             if monster.boss==False:
                 monster.normal_attack(novice)
                 time.sleep(0.4)
